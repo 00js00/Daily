@@ -1,10 +1,9 @@
-## ~ing  20201229 SJW
+##20201229 SJW
 
-<<<<<<< HEAD
 ## 1이 될 때 까지
 
 n, k = map(int, input().split())
-rerult = 0
+result = 0
 
 ## SJW
 while n > 1:
@@ -31,16 +30,3 @@ while True:
 	# K로 나누기
 	result += (n - 1)
 	print(rerult)
-=======
-n = 7
-k = 3
-
-while n == 1:
-  if n %= 0 :
-    n /= k
-    print(n)
-  else:
-    n =- 1
-    print(n)
-print(n,k)
->>>>>>> bb50afe2e6d294f2d62dcedce6c8bec09a920ddf
