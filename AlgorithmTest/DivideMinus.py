@@ -14,7 +14,7 @@ result = 0
 #		n -= 1
 #		result += 1
 
-print(result)
+#print(result)
 
 ##### 답안 예시
 ## 시간복잡도를 줄여 빠르게 해결할 수 있다
@@ -27,11 +27,10 @@ while True:
 	# N이 K보다 작을 때 (더 이상 나눌 수 없을 때) 반복문 탈출
 	if n < k:
 		break
+    
 	# K로 나누기
-  
-  result += 1
-  n //= k
-
+	result += 1
+	n //= k
 #마지막으로 남은 수에 대하여 1씩 빼기  
 result += (n - 1)
 print(result)
