@@ -1,19 +1,18 @@
-## ~ing  20201229 SJW
+##20201229 SJW
 
-<<<<<<< HEAD
 ## 1이 될 때 까지
 
 n, k = map(int, input().split())
-rerult = 0
+result = 0
 
 ## SJW
-while n > 1:
-	if n % k == 0:
-		n /= k
-		result += 1
-	else:
-		n -= 1
-		result += 1
+#while n > 1:
+#	if n % k == 0:
+#		n /= k
+#		result += 1
+#	else:
+#		n -= 1
+#		result += 1
 
 print(result)
 
@@ -29,18 +28,10 @@ while True:
 	if n < k:
 		break
 	# K로 나누기
-	result += (n - 1)
-	print(rerult)
-=======
-n = 7
-k = 3
+  
+  result += 1
+  n //= k
 
-while n == 1:
-  if n %= 0 :
-    n /= k
-    print(n)
-  else:
-    n =- 1
-    print(n)
-print(n,k)
->>>>>>> bb50afe2e6d294f2d62dcedce6c8bec09a920ddf
+#마지막으로 남은 수에 대하여 1씩 빼기  
+result += (n - 1)
+print(result)
