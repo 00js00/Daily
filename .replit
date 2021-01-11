@@ -1,2 +1,2 @@
 language = "python3"
-run = "python AlgorithmTest/DivideMinus.py"
+run = "python DongbinStudy/Adventure.py"
