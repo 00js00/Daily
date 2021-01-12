@@ -1,2 +1,2 @@
 language = "python3"
-run = "python DongbinStudy/Adventure.py"
+run = "python DongbinStudy/ReOrder.py"
