@@ -3,4 +3,3 @@
 n = "K1KA5CB7"#input()
 
 for i in range(10):
-  

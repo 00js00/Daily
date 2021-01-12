@@ -1,2 +1,6 @@
 language = "python3"
+<<<<<<< HEAD
 run = "python DongbinStudy/ReOrder.py"
+=======
+run = "python DongbinStudy/UpDownLeftRight.py"
+>>>>>>> 5231f5dde0f1389dc1dcd38165dc7bc9718cb986
