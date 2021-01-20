@@ -4,10 +4,24 @@
 ## 2. 수직으로 두 칸 이동한 뒤에 수평으로 한 칸 이동하기
 #  나이트 위치가 주어졌을 때 나이트가 이동할 수 있는 경우의 수를 출력
 
-lx = ["a","b","c","d","e","f","g","h"]
-ly = ["1","2","3","4","5","6","7","8"]
+## NDB
+input_data = input()
+row = int(input_data[1])
 
-n1 = [2,1]
-n2 = [1,2]
+## ord : 현재 문자의 유니코드 위치 
+col = int(ord(input_data[0])-ord('a'))+1
+print(row,col)
 
-x, y = 
+type = [(2,1),(2,-1),(-2,1),(-2,-1),
+        (1,2),(1,-2),(-1,2),(-1,-2)]
+
+result = 0
+
+for i in type:
+  col_next = col + i[1]
+  row_next = row + i[0]
+  
+  if col_next >=1 and col_next <=8 and row_next >=1 and row_next <=8:
+    result += 1
+
+print(result)
