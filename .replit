@@ -1,2 +1,2 @@
 language = "python3"
-run = "python DongbinStudy/lecture3/Factorial.py"
+run = "python DongbinStudy/lecture3/EuclideanAlgorithm.py"
