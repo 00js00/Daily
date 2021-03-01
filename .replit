@@ -1,2 +1,3 @@
 language = "python3"
-run = "python DongbinStudy/lecture3/EuclideanAlgorithm.py"
+run = "python DongbinStudy/lecture2/Clock.py"
+#run = "python BaeckJoon/Example/2529.py"
